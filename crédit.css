@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    background-color: #6B8E23;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav a {
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  
+  .main .background {
+    background-image: url('IMG/edit.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .member {
+    text-align: center;
+  }
+  
+  .member img {
+    width: 250px;
+    height: auto;
+
+  }
+  
+  .name {
+    margin-top: 10px;
+    background-color: #6B8E23;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    bottom: 100px;
+  }
+
+  footer {
+    background-color: #6B8E23;
+    height: auto;
+    width: 90pxS;
+    padding: 100;
+  }
+
+  .titre h1{
+    color: #0202024f;
+    font-size: 70px;
+}
+
+.titre{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header, footer {
+  background-color: #4d7c0f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

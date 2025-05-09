@@ -1,0 +1,56 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #e2e2e2;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .top-bar,
+  .bottom-bar {
+    height: 40px;
+    background: #6B8E23;
+  }
+  
+  .content {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: calc((100% - 40px) / 3);
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .gallery-title {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+
+  .google-logo span:nth-child(1) {color: #6B8E23;}
+  .google-logo span:nth-child(2) {color: yellow;}
+  .google-logo span:nth-child(3) {color: yellow;}
+  .google-logo span:nth-child(4) {color: red;}
+  .google-logo span:nth-child(5) {color: red;}
+  
